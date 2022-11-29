@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lan="en">
+<head>
+<head>
+  <title>Zomato</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<style type="text/css">
+body{
+	background-color: #f1f5f7;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+.navbar{
+	background-color: #FFF;
+
+}
+.btn1{
+	float: right;
+    margin-right: 70px;
+    margin-top: 10px;
+    color:#FFF;
+}
+.btn{
+	margin-right:20px;
+}
+.logo{
+	height:120px;
+	width:120px;
+	margin:0 auto;
+	margin-top: 45px;
+	text-align:center;
+	padding:20px 10px;
+	background-color: black	;
+	color: #FFF;
+	border-radius:4px;
+}
+.header{
+background-image: url("images/pizza3.png");
+background-size: cover;
+height:450px;
+}
+
+.text-center{
+	font-size: 30px;
+	margin-top: 35px;
+}
+form{
+	margin-left:20%;
+	margin-top: 55px;
+}
+.col-xs-6{
+	margin-right: 10px;
+}
+.mid{
+	margin: 3% 7%;
+}
+.image1{
+	height:120px;
+	width:148.28px;
+	background-image: url("images/1.jpg");
+	background-size: cover;
+	margin:0px -7px 0px -15px;
+	border-radius: 4px 0px 0px 4px;
+}
+.image2{
+	height:120px;
+	width:148.28px;
+	background-image: url("images/2.jpg");
+	background-size: cover;
+	margin:0px -7px 0px -15px;
+	border-radius: 4px 0px 0px 4px;
+}
+.image3{
+	height:120px;
+	width:148.28px;
+	background-image: url("images/3.jpg");
+	background-size: cover;
+	margin:0px -7px 0px -15px;
+	border-radius: 4px 0px 0px 4px;
+}
+.image4{
+	height:120px;
+	width:148.28px;
+	background-image: url("images/4.jpg");
+	background-size: cover;
+	margin:0px -7px 0px -15px;
+	border-radius: 4px 0px 0px 4px;
+}
+.text1 {
+    float: right;
+    display: inline-block;
+    margin-left: 20px;
+}
+.col-lg-4{
+	display: inline-flex;
+	width:384.66px;
+	background-color: #FFF;
+	border-radius: 7px;
+	margin: 10px;
+}
+.row{
+	border-radius: 4px;
+	color: black;
+}
+#one{
+margin-left: -5px;
+}
+#four{
+	margin-left: 25px;
+}
+#o_input{
+	/*margin-left: -33px;
+	margin: 0 auto;*/
+	/*margin:18px 16px;*/ 	
+	width:300px;
+	
+}
+#o_btn{
+	/*margin-left: -18px;
+    margin-top: 20px;*/
+    margin:18px 16px;
+    width: 300px;
+
+
+}
+.wrapper_menu{
+	margin-top: 65px;
+}
+.wrapper{
+	margin: 0 auto;
+    background-color: #FFF;
+    margin-left: -25px;
+    padding-left: 33px;
+    border-radius: 7px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+	}
+	.places{
+	margin-top: 65px;
+    background-color: #FFF;
+    margin-left: 70px;
+    padding-left: 43px;
+    border-radius: 7px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+	}
+	
+	ul{
+		margin:0 auto;
+		list-style-type: none;
+	}
+	li{
+		margin:9px;
+	}
+	a{
+		text-decoration: none;
+	}
+	a:hover{
+		text-decoration: none;
+	}
+	.statistics{
+		margin-left:430px;
+		display:inline-flex;
+	}
+	.value{
+		font-weight: 400;
+		color: #B9BFC7;
+		text-transform: uppercase;
+		font-size: 40px;
+	}
+	.label1{
+		font-weight: 700;
+		color: #B9BFC7;
+		text-transform: uppercase;
+		font-size: 15px;
+		text-align:center;
+	}
+	.stats{
+		margin: 10px 30px;
+		text-align: center;
+	}
+	.first{
+		margin-left: -250px;
+	}
+	.font{
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	.logo1{
+	height:2.8rem;
+	width:13.2rem;
+    font-size: 1.6rem;
+    font-family: Okra, Helvetica, sans-serif;
+	margin:0 120px;
+	margin-top: 45px;
+	text-align:center;
+	padding:20px 10px;
+	color: black;
+	border-radius:4px;
+	}
+	.footer{
+
+    background-color: rgb(248, 248, 248);
+    border-top: 1px solid #eee;
+   	}
+	.footer_divider{
+		width:1140px;
+		margin: 5px auto;
+	}
+	.footer_bottom li{
+		float:left;
+	}
+	.footer li{
+		color: #e7e2e2;
+	}
+	.footer h3{
+		color:#ADB0B6;
+		font-weight: 700;
+		font-size: 18px;
+	}
+	.footer_list{
+		height: 35px;
+    padding-left: 55px;
+	}
+
+@media only screen and (min-width: 1150px) {
+	.col-xl-4{
+		float:right; margin-top: -359px;
+
+	}
+	#order{
+		float:right;
+	    margin-top: -359px; 
+		margin-left: 73%;
+
+	}
+	#four{
+		margin-left:  10px;
+	}
+	.menu{
+		margin: 0 auto;
+		margin-right: 40px;
+	}
+	
+	.places{
+		width:1186.18px;
+	}
+
+}
+@media (min-width: 992px){
+.col-md-3 {
+    width: 33.333%;
+}
+}
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+.varound2 {
+  border: 2px ;
+  border-radius: 8px;
+  padding: 20px;
+}
+.gg-chevron-down {
+ box-sizing: border-box;
+ position: relative;
+ display: block;
+ transform: scale(var(--ggs,1));
+ width: 22px;
+ height: 22px;
+ border: 2px solid transparent;
+ border-radius: 100px
+}
+.gg-chevron-down::after {
+ content: "";
+ display: block;
+ box-sizing: border-box;
+ position: absolute;
+ width: 10px;
+ height: 10px;
+ border-bottom: 2px solid;
+ border-right: 2px solid;
+ transform: rotate(45deg);
+ left: 4px;
+ top: 2px
+} 
+
+
+</style>
+</head>
+<body>
+	
+<div class="mid">
+	<h3 style="margin-left: 2px; font-family: Okra, Helvetica, sans-serif;"><b>Explore Options Near Me</b></h3>
+	    <button class="accordion font varound2">Popular cuisines near me</button>
+        <div class="panel">
+          <p>Bakery food near me . Beverages food near me . Biryani food near me . Burger food near me . Cafe food near me . Chinese food near me . Coffee food near me . Continental food near me . Desserts food near me . Italian food near me . Momos food near me .Mughlai food near me . North Indian food near me . Pizza food near me . Rajasthani food near me . Rolls food near me . Sandwich food near me . Shake food near me . South Indian food near me . Street food near me</p>
+        </div>
+		<br>
+		<br>        
+        <button class="accordion font varound2">Popular restaurant types near me</button>
+        <div class="panel">
+          <p>Bakeries near me . Bars near me . Beverage Shops near me . Bhojanalya near me . Cafés near me . Casual Dining near me . Clubs near me . Dessert Parlors near me . Dhabas near me . Fine Dining near me . Food Courts near me . Food Trucks near me . Kiosks near me . Lounges near me . Microbreweries near me . Paan Shop near me . Pubs near me . Quick Bites near me . Sweet Shops near me</p>
+        </div>
+		<br>
+		<br>        
+        <button class="accordion font varound2">Top restaurant chains</button>
+        <div class="panel">
+          <p>Bikanervala  Biryani Blues  Burger King   Burger Singh   Dunkin' Donuts</p>
+        </div>
+		<br>
+		<br>
+        <button class="accordion font varound2">Cities we deliver to</button>
+        <div class="panel">
+          <p><div class="col-m-4" style="margin-top: 20px; padding-left: -10px;">
+                <ul class="footer_links-1">
+                <li>Pune</li>
+                <li>Nashik</li>
+                <li>Mumbai</li>
+                <li>Thane</li>
+                <li>Kolkata</li>
+            </ul>
+        </div>
+        <div class="col-m-5" style=" margin-top: -145px; margin-left: 260px;">
+                <ul class="footer-links-2">
+                <li>Uttarakhand</li>
+                <li>Madhya pradesh</li>
+                <li>Surat</li>
+                <li>Ahemdabad</li>
+                <li>Uttar pradesh</li>
+                <li>Kerala</li>
+            </ul>
+        </div>
+        <div class="col-m-5" style="margin-top: -175px;margin-left: 560px;">
+                <ul class="footer-links-3">
+                <li>Kochi</li>
+                <li>Srinagar</li>
+                <li>Manali</li>
+                <li>Patna</li>
+                <li>Akola</li>
+                <li>Lucknow</li>
+                <li>Bhopal</li>
+            </ul>
+        </div>					
+        <div class="col-m-5" style="margin-top: -200px;margin-left: 860px;">
+                <ul class="footer-links-3">
+                <li>Aurangabad</li>
+                <li>Nagpur</li>
+                <li>Changarh</li>
+                <li>Goa</li>
+                <li>Indore</li>
+                <li>Gangtok</li>
+                <li>Chennai</li>
+            </ul>
+        </div>		
+        </p>
+        </div>
+        <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+            
+            for (i = 0; i < acc.length; i++) {
+              acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                  panel.style.display = "none";
+                } else {
+                  panel.style.display = "block";
+                }
+              });
+            }
+            </script>        
+</div>	 
+		
+		<div class="footer" style="min-height: 700px;">
+			<div class="wrap">
+				<div class="row">
+					<div class="col-m-10" style="width: 725px;">
+						<div class="logo1" style="color:black">
+							<h3 style="font-size: 30px; margin:3px -5px"><b><i style="color: black">Zomato</i></b></h3>
+						</div>
+					</div>
+					<div class="col-m-6" style= "margin-top: -40px; margin-left: 777px; width: 1200px;">
+						<div class="form-group" arial-labelledby="country-dropdown-label;" style="margin-left: 70px;">
+							<div class="input-group col-xs-2">
+								<span class="input-group-addon"> <i class="glyphicon glyphicon-globe"></i></span>
+									<select class="form-control">
+										<option>India</option>
+										<option>Austrailia</option>
+										<option>China</option>
+										<option>USA</option>
+										<option>Italy</option>
+										<option>UAE</option>
+										<option>UK</option>
+										<option>QATAR</option>
+								</select>
+							</div>
+						</div>
+					</div>
+					<div class="col-m-6" style= "margin-top: -50px; margin-left: 1000px; width: 1200px;">
+						<div class="form-group" style="margin-left: 70px;">
+							<div class="input-group col-xs-2">
+								<span class="input-group-addon"> <i class="glyphicon glyphicon-globe"></i></span>
+									<select class="form-control">
+										<option>English</option>
+										<option>Cestina</option>
+										<option>Espanol</option>
+										<option>Indonesian</option>
+										<option>Italian</option>
+										<option>Polish</option>
+										<option>Postugues(BR)</option>
+										<option>Portugues(PT)</option>
+								</select>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+			<div class="footer_divider">
+			</div>
+
+			<div class="row">
+				<div class="col-m-4 " style="padding-left: 90px;">
+					<h3 style="padding-left: 47px; color:black">About Zomato</h3>
+					<ul class="footer_links-1">
+						<li style="color: black">Who We Are</li>
+						<li style="color: black">Blog</li>
+						<li style="color: black">Work with us</li>
+						<li style="color: black">Investor relations</li>
+						<li style="color: black">Report Fraud</li>
+						<li style="color: black">Contact Us</li>
+					</ul>
+				</div>
+				<div class="col-m-5" style=" margin-top: -215px; margin-left: 360px;">
+					<h3 style="padding-left: 47px; color:black">For Foodies</h3>
+					<ul class="footer-links-2">
+						<li style="color: black">Zomato</li>
+						<li style="color: black">Blinkit</li>
+						<li style="color: black">Feeding India</li>
+						<li style="color: black">Hyper pure</li>
+						<li style="color: black">Zomaland</li>
+					</ul>
+				</div>
+				<div class="col-m-5" style="margin-top: -190px;margin-left: 560px;">
+					<h3 style="padding-left: 45px; color:black">For Restaurants</h3>
+					<ul class="footer-links-3">
+						<li style="color: black">Partner With us</li>
+						<li style="color: black">Apps for you</li>
+						<br>
+						<br>
+						<h3 style="padding-left: -165px; color: black;">For Enterprises</h3>
+						<li style="color: black">Zomato for work</li>
+					</ul>
+				</div>					
+                <div class="col-m-5" style="margin-top: -220px;margin-left: 860px;">
+					<h3 style="padding-left: 45px; color:black">Learn more</h3>
+					<ul class="footer-links-3">
+						<li style="color: black">Privacy</li>
+						<li style="color: black">Security</li>
+						<li style="color: black">Terms</li>
+						<li style="color: black">SiteMap</li>
+					</ul>
+				</div>		
+                <div class="col-m-5" style="margin-top: -150px;margin-left: 1100px;">
+					<h3 style="padding-left: 45px;"></h3>
+					<img src="Screenshot 2022-11-27 232117.png">
+				</div>					
+		    </div>
+		    <div class="footer_divider">
+			</div>
+			<br>
+			<br>
+			<hr style=" color:black">
+			<div class="footer_list " style="color: black; ">
+				<h6 style="padding-left: 67px;">By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-2022 © Zomato™ Ltd. All rights reserved.</h6>
+
+			</div>
+
+			<div class="footer_divider"></div>		
+        </div>
+</body>
+</html>
