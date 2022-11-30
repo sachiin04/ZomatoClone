@@ -9,8 +9,12 @@
     font-size: 30px;
     margin-bottom: 20px;
 }
+.head p{
+    
+}
 
 .container {
+    padding-top: 100px;
     margin-left: 150px;
     margin-right: 150px;
 }
